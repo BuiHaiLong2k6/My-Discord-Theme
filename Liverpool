@@ -1,4 +1,4 @@
-/* Custom Theme Example */
+/* Liverpool */
 
 /* Changing the main background color */
 :root {
@@ -23,4 +23,30 @@
 /* Make chat messages slightly transparent */
 .message-2qnXI6 {
     background-color: rgba(114, 137, 218, 0.2); /* Light transparent purple */
+}
+/* Adding a GIF as a background for the chat area */
+.chatContent-3KubbW {
+    background-image: url("https://github.com/Spot-Gnol/My-Discord-Theme/commit/c4d56150b9c70ecbb001446b1fbee63825fcade9");
+    background-size: cover; /* Ensures the GIF covers the entire background */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Optional: Add some transparency to the message container so the GIF is visible behind messages */
+.message-2qnXI6 {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for messages */
+}
+
+/* Title section (customizing the title bar) */
+.title-29uC1r::before {
+    content: "Corner Taken Quickly!";  /* Text to display */
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent background for text */
+    border-radius: 5px;
+    margin-bottom: 10px;
 }

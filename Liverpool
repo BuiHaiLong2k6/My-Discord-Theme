@@ -1,0 +1,26 @@
+/* Custom Theme Example */
+
+/* Changing the main background color */
+:root {
+    --background-primary: #1e1f22; /* Darker background */
+    --background-secondary: #23272a; /* Slightly lighter background */
+    --text-normal: #ffffff; /* White text */
+    --brand-experiment: #7289da; /* Default Discord accent color (light purple) */
+}
+
+/* Changing server icons to circular */
+.guildIcon-1QyThd {
+    border-radius: 50%;
+    border: 2px solid #7289da; /* Adding a border around server icons */
+}
+
+/* Customize the channel list background */
+.containerDefault-1ZnADq {
+    background-color: #2f3136;
+    color: #b9bbbe; /* Make text light gray */
+}
+
+/* Make chat messages slightly transparent */
+.message-2qnXI6 {
+    background-color: rgba(114, 137, 218, 0.2); /* Light transparent purple */
+}

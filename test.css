@@ -1,0 +1,42 @@
+/* Custom Theme Example with GIF Background */
+
+/* Adding the GIF as a background for the chat area */
+.chatContent-3KubbW {
+    background-image: url("https://github.com/Spot-Gnol/My-Discord-Theme/blob/main/corner-taken-quickly-football.gif?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Semi-transparent background for chat messages */
+.message-2qnXI6 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Title section above chat */
+.title-29uC1r::before {
+    content: "Corner Taken Quickly!";
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Custom colors for Discord */
+:root {
+    --background-primary: #1e1f22;
+    --background-secondary: #23272a;
+    --text-normal: #ffffff;
+    --brand-experiment: #7289da;
+}
+
+/* Making server icons circular */
+.guildIcon-1QyThd {
+    border-radius: 50%;
+    border: 2px solid #7289da;
+}
